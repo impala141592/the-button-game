@@ -28,7 +28,14 @@ def button():
                 if failPercentage < 100 :
                     failPercentage += 1
                     randomNum = random.randint(1, 100)
-                    print("your score is:", score)  
+                    print("your score is:", score)
+
+            elif key == keys.ESC :
+                gameOver = True
+                print("GAME OVER")
+
+            else :
+                print("press enter to play or esc to exit")
 
 
 
