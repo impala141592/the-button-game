@@ -4,8 +4,8 @@ import datetime
 
 score = 0
 gameOver = False
-randomNum = random.randint(1, 100)
 failPercentage = 1
+randomNum = random.randint(failPercentage, 100)
 
 print('\033[36;1m' + "THE BUTTON GAME" + '\033[m')
 print("\n • hit" + "\033[1m" , "ENTER" , '\033[m' + "to get 1 point \n • everytime you hit enter you also increase your odds to lose by 1% \n • to exit hit" + "\033[1m" , "ESCAPE" , '\033[m' + "\n ")
